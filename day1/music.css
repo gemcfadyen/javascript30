@@ -1,0 +1,26 @@
+body {
+  background-image: url("images/percussion.jpeg");
+  font-family: 'Rock Salt', cursive;
+  font-size: 1rem; color: white;
+  text-align: center;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 0.5rem solid white;
+  margin: 1rem;
+}
+
+.percussion {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.flash {
+  border: 0.5rem solid red;
+}
+
